@@ -98,7 +98,12 @@ contract Election
     }
 
  function getVotersWeight(address voter_address) public view returns(uint){
-           return voters[voter_address].weight;
+    console.log("getting voters weight");
+    uint result = voters[voter_address].weight;
+     
+    console.log("voters weight is %s and voters address is %s ",result, voter_address);
+   
+    return result;
  }
 
 }

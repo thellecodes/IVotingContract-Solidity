@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\user\\projects\\ekolance\\votingApplication\\IVotingContract-Solidity\\contracts\\Election.sol": {
-      "lastModificationDate": 1655320862892,
-      "contentHash": "7b828abbe1575ae85e065237a1139653",
+      "lastModificationDate": 1655402911983,
+      "contentHash": "55b52207212ccb9ba693919c29e0e1a5",
       "sourceName": "contracts/Election.sol",
       "solcConfig": {
         "version": "0.8.4",
