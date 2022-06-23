@@ -1,9 +1,11 @@
-const Main = async () => {
+const main = async () => {
   const ElectionContract = await ethers.getContractFactory("Election");
-  const ElectionContractInstance = await ElectionContract.deploy();
-  console.log(ElectionContractInstance.address);
+  const [deployer] = await ethers.getSigners();
+  const ElectionInstance = await ElectionContract.deploy();
+  console.log(deployer.address);
+  console.log(ElectionInstance.address);
 };
 
-Main()
+main()
   .then(() => process.exit(0))
   .catch((error) => console.log(error));
