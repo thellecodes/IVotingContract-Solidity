@@ -4,9 +4,16 @@ Create a smart contract for a voting application. In this application, allow a p
 
 - Implement this interface: https://github.com/Ekolance/Voting-Smart-Contract-Interface/blob/main/IVotingContract.sol
 
-- Use the variables and functions in the default _ballot.sol smart contract in remix IDE, except that instead of proposals, you now have candidates, and the candidates are added one after another via a function, not in the constructor. 
+- Use the variables and functions in the default \_ballot.sol smart contract in remix IDE, except that instead of proposals, you now have candidates, and the candidates are added one after another via a function, not in the constructor.
 
 ### Test Address
-```javascript 
-["0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db", "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", "0x1aE0EA34a72D944a8C7603FfB3eC30a6669E454C"]
+
+```javascript
+[
+  "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+  "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+  "0x1aE0EA34a72D944a8C7603FfB3eC30a6669E454C",
+];
 ```
+
+Deploy command: npx hardhat run scripts/deploy.js --network goerli
